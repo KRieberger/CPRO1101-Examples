@@ -4,10 +4,12 @@
     <head>
         <style>
             section>h1 {
+                /*Specificity 2*/
                 background: blue;
             }
 
-            article~p {
+            article~#para1 {
+                /* 101 */
                 background: red;
             }
 
