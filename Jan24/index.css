@@ -1,0 +1,13 @@
+/* External CSS */
+h1 {
+    color: red;
+    background-color: green;
+    margin: auto 50px;
+    padding: -10px;
+    text-align: center;
+    width: 50%;
+}
+
+#top {
+    margin-bottom: 0.5em;
+}
