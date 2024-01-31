@@ -1,0 +1,23 @@
+body {
+    height: 6000px;
+}
+
+/* div {
+    position: relative;
+} */
+
+#para {
+    border: 3px solid red;
+    background: lightgray;
+    position: sticky;
+    top: 50px;
+    /* left: 50px; */
+    /* right: 80px; */
+}
+
+#conflicting {
+    /* position: absolute;
+    border: 3px dashed blue;
+    background: grey; */
+    /* top: 500px; */
+}

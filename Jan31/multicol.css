@@ -1,0 +1,19 @@
+body {
+    /* column-count: 4; */
+    column-gap: 60px;
+    column-rule: 5px dotted red;
+    column-width: 100px;
+}
+
+#para {
+    border: 3px solid red;
+    break-inside: avoid;
+}
+
+#conflicting {
+    column-span: all;
+}
+
+/* #heading {
+    column-span: all;
+} */
