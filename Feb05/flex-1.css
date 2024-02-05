@@ -4,12 +4,18 @@
 }
 
 article {
-    border: 2px solid teal;
+    background-color: aqua;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
     flex: 1;
-    padding: 15px;
-    margin: 5px;
 }
 
-article:last-child {
+article:nth-of-type(3) {
     flex: 2;
+}
+
+h1 {
+    background-color: orchid;
+    border-radius: 0.25rem;
+    text-align: center;
 }
