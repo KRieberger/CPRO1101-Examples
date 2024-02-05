@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    border: 2px solid teal;
+    flex: 1;
+    padding: 15px;
+    margin: 5px;
+}
+
+article:last-child {
+    flex: 2;
+}
