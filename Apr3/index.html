@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+    <head>
+        <title>April not the 5th</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <h1 id="top-level">Main Heading</h1>
+        <p id="button" style="border: 1px solid #000;">Set Text</p>
+        <p id="button2" style="border: 1px solid #000;">Set HTML</p>
+        <p id="button3" style="border: 1px solid #000;">Add Element</p>
+        <p id="button4" style="border: 1px solid #000;">Remove Element</p>
+        <p id="toggle">I get toggled</p>
+
+        <script>
+            $("#button").click(function () {
+                // Code to be executed on a click
+                // console.log("Clicked!");
+                // $("#toggle").slideUp("slow");
+                let text = $("#toggle").text();
+                console.log(text);
+                $("#toggle").text("This is <b>bold</b>");
+            })
+            $("#button2").click(function () {
+                let html = $("#toggle").html();
+                console.log(html);
+                $("#toggle").html("This is <b>bold</b>");
+            })
+            $("#button3").click(function () {
+                let newNode = $("<p></p>").text("I'm New");
+                $("#toggle").after(newNode);
+            })
+            $("#button4").dblclick(function () {
+                $("#toggle").remove();
+            })
+        </script>
+    </body>
+
+</html>
